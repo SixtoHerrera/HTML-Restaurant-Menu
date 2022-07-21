@@ -107,4 +107,5 @@ nav {
     background-color: red;
     color: white;
     font-size:x-large;
+    text-transform: capitalize; 
 }
