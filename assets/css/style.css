@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: white;
 }
@@ -72,6 +73,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +85,26 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+nav {
+    width: 100%;
+}
+.my-container ul {
+    text-align: center;
+    padding-left: 0em;
+    list-style: none;
+    
+    
+    
+}
+.my-container p {
+    text-align: left;
+}
+.about, .contact, .menu, .home {
+    color: blue;
+}
+.holiday {
+    background-color: red;
+    color: white;
+    font-size:x-large;
 }
